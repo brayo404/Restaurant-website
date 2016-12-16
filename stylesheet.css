@@ -61,21 +61,45 @@ padding-right: 15px;}
 .navbar-header button.navbar-toggle {clear: both;
 margin-top: -30px;}
 
+.container .jumbotron {
+	box-shadow: 0 0 50px #3f0c1f;
+	border: 2px solid #3f0c1f;
+}
+
 /*** Large devices only ***/
 @media (min-width: 1200px) {
 	/** header **/
-	#logo-img {background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Media_Chinese_logo.svg/150px-Media_Chinese_logo.svg.png") no-repeat;
-width: 100px;
-height: 100px;
-margin: 5px 5px 5px 0;}
+
+
+.container .jumbotron {
+	background: url("http://www.eatatyoyos.com/wp-content/uploads/2011/09/Inside-the-restaurant.jpg") no-repeat;
+	height: 675px;
+	;
+}
 /* end header */
 }
 
 /*** Medium devices only ***/
-@media (min-width:992px) and (max-width: 1199px) {}
+@media (min-width:992px) and (max-width: 1199px) {
+		#logo-img {background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Media_Chinese_logo.svg/150px-Media_Chinese_logo.svg.png") no-repeat;
+width: 100px;
+height: 100px;
+margin: 5px 5px 5px 0;}
+
+.container .jumbotron {
+	background: url("http://www.eatatyoyos.com/wp-content/uploads/2011/09/Inside-the-restaurant.jpg") no-repeat;
+	height: 558px;
+	}
+
+}
 
 /*** Small devices only ***/
-@media (min-width: 768px) and (max-width: 991px) {}
+@media (min-width: 768px) and (max-width: 991px) {
+	.container .jumbotron {
+	background: url("http://www.eatatyoyos.com/wp-content/uploads/2011/09/Inside-the-restaurant.jpg") no-repeat;
+	height: 432px;
+	}
+}
 
 /*** Extra small devices only ***/
 @media (max-width: 767px) {
@@ -89,11 +113,40 @@ margin: 5px 5px 5px 0;}
 		font-size: 5vw;
 	}
 	.navbar-brand p {
-		text-transform: uppercase;
 		font-size: .6em;
 		margin-top: 12px;
 	}
 	.navbar-brand p img{
 		height: 20px;
 	}
+	#collapsable-nav a {
+		font-size: 1.2em;
+	}
+	#collapsable-nav a span {
+		font-size: 1em;
+		margin-right: 5px;
+	}
+
+	#call-btn > a {
+		font-size: 1.5em;
+		display: block;
+		margin: 0 20px;
+		padding: 10px;
+		border: 2px solid #fff;
+		background-color: #f6b319;
+		color: #951c49;
+	}
+	#xs-deliver {
+		margin-top: 5px;
+		font-size: .7em;
+		letter-spacing: .1em;
+		text-transform: uppercase;
+	}
+	.container .jumbotron {
+		margin-top: 30px;
+		padding: 0;
+		
+	}
 }
+
+
