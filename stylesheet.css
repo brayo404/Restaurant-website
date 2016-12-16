@@ -66,6 +66,40 @@ margin-top: -30px;}
 	border: 2px solid #3f0c1f;
 }
 
+#menu-tile, #specials-tile, #map-tile {
+	height: 250px;
+	width: 100%;
+	margin-bottom: 15px;
+	position: relative;
+	border: 2px solid #3f0c1f;
+	overflow: hidden;
+}
+#specials-tile:hover, #menu-tile:hover, #map-tile:hover {
+	box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#menu-tile {
+	background: url("http://i.ndtvimg.com/i/2015-09/chilli-chicken-625_625x350_41441399214.jpg") no-repeat;
+	background-position: center;
+}
+#specials-tile {
+	background: url("http://i.ndtvimg.com/i/2015-09/chilli-chicken-625_625x350_41441399214.jpg") no-repeat;
+	background-position: center;
+}
+
+#menu-tile span, #specials-tile span, #map-tile span {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.6em;
+	text-transform: uppercase;
+	background-color: #000;
+	color: #fff;
+	opacity: .8;
+}
+
 /*** Large devices only ***/
 @media (min-width: 1200px) {
 	/** header **/
